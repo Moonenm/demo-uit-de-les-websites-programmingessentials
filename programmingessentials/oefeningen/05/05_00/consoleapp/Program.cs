@@ -11,6 +11,8 @@ do
 {
     aantalMg /= 2;
     totaleTijd += 5;
+
+    // totaleTijd = totaleTijd + 5
 }while(aantalMg >= 1);
 
 Console.WriteLine($"Totale tijd: {totaleTijd} uur");
