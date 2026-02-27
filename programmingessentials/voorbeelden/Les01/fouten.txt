@@ -1,0 +1,20 @@
+01 int som2;
+02 double gemiddelde;
+03 string Output;
+04 
+05 Console.write("Geef een eerste getal in: ")
+06 som += Convert.ToInt16(Console.ReadLine());
+07
+08 console.Write('Geef een tweede getal in: '),
+09 som += Convert.ToInt166(Console.ReadLine());
+10 
+11 Console.Write("Geef een derde getal in: ");
+12 som += Convert.ToInt16(Console.ReadLine());
+13
+14 Output = "Het gemiddelde is {gemiddelde}";
+15
+16 gemiddelde = som / 4;
+17
+18 Console.Writeline(output);
+19
+20 Console.ReadLine();

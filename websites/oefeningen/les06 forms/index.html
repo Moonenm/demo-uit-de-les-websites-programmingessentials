@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mijn eerste voorbeeld</title>
+
+    <style>
+        input{
+          margin-bottom: 5px;
+        }
+
+        input[type=password]{
+          
+        }
+    </style>
+  </head>
+  <body>
+    <h1>Dit is de titel van mijn eerste website</h1>
+    <form action="pagina2.html" method="get">
+      <div><label for="naam">Geef je naam in:</label></div>
+      <div><input type="text" name="naam" id="naam" placeholder="Naam"></div>
+      <div><label for="getal">Geef een getal in:</label></div>
+      <div><input type="number" name="getal" id="getal" min="1" max="10"></div>
+
+      <div><label for="password">Geef je wachtwoord in:</label></div>
+      <div><input type="password" name="password" id="password" placeholder="Wachtwoord"></div>
+      
+      <div><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2502.1542159454793!2d4.9588240768625855!3d51.16094623595339!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c14c011b4bcb87%3A0xb5b970e9f2a6ce42!2sCampus%20Geel%20Thomas%20More!5e0!3m2!1snl!2sbe!4v1772116507404!5m2!1snl!2sbe" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+
+      <div>
+        <input type="submit" value="Verzenden">
+      </div>
+    </form>
+</html>

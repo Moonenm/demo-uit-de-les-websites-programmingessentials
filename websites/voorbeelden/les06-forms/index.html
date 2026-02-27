@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Les 06 forms</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <form action="https://tm-statweb.be/forms.php" method="post">
+        <div>
+            <label for="naam">Geef de naam:</label>
+            <input type="text" name="naam" id="naam" placeholder="Achternaam" required class="lightblue">
+        </div>
+        <div>
+            <label for="voornaam">Geef de voornaam:</label>
+            <input type="text" 
+                name="voornaam" 
+                id="voornaam" 
+                placeholder="Voornaam" 
+                minlength="2" 
+                pattern="[A-Za-z]"
+                maxlength="10">
+        </div>
+        <div>
+            <label for="email">Geef het emailadres:</label>
+            <input type="email" name="email" id="email" placeholder="Emailadres">
+        </div>
+        <div>
+            <label for="getal">Geef een getal: </label>
+            <input type="number" name="getal" id="getal" min="1" max="10">
+        </div>
+
+        <div>
+            <label for="opmerkingen">Heb je nog opmerkingen?</label>
+        </div>
+        <div>
+            <textarea name="opmerkingen" id="opmerkingen" cols="30" rows="10"></textarea>
+        </div>
+
+        <!-- div met radiobuttons -->
+        <div><label for="diplomatype">Kies je diplomatype</label></div>
+        <div>
+            <div>
+                <input type="radio" name="diplomatype" id="secundair" value="secundair">
+                <label for="secundair">Secundair</label>
+            </div>
+            <div>
+                <input type="radio" name="diplomatype" id="graduaat" value="graduaat">
+                <label for="graduaat">Graduaat</label>
+            </div>
+            <div>
+                <input type="radio" name="diplomatype" id="bachelor" value="bachelor">
+                <label for="bachelor">Bachelor</label>
+            </div>
+            <div>
+                <input type="radio" name="diplomatype" id="master" value="master">
+                <label for="master">Master</label>
+            </div>
+        </div>
+
+        <div>
+            <div><input type="checkbox" name="allergie" id="allergie">
+                <label for="allergie">Ben je allergisch?</label></div>
+            <div><input type="checkbox" name="diabetes" id="diabetes">
+                <label for="diabetes">Ben je diabetes?</label></div>
+        </div>
+
+
+        <div>
+            <label for="haarkleur">Selecteer je haarkleur</label>
+            <select name="haarkleur" id="haarkleur">
+                <option value="blond">Blond</option>
+                <option value="bruin">Bruin</option>
+                <option value="zwart">Zwart</option>
+                <option value="rood">Rood</option>
+                <option value="groen">Groen</option>
+            </select>
+        </div>
+
+        <input type="submit" value="Verzenden">
+    </form>
+</body>
+</html>

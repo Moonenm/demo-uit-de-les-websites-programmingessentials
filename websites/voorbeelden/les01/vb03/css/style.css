@@ -1,0 +1,55 @@
+*{
+    font-size: 20px;
+}
+
+
+img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+img:hover{
+    width: 10%;
+}
+
+div{
+    background-color: brown;
+    margin: 10px 20px 30px 40px;
+    padding: 30px;
+    border: solid 20px darkblue;
+    border-radius: 10px;
+}
+
+.top-div{
+    background-color: darkgreen;
+    border: solid 5px darkgrey;
+}
+
+.afronding{
+    border-radius: 20%;
+}
+
+#demo{
+    height: 100px;
+    width: 100px;
+    background-color: #33334A;
+}
+
+a:link{
+    color:white;
+}
+
+a:visited{
+    color:blue;
+}
+a:hover {
+    font-size: 3rem;
+}
+a:active{
+    font-weight: bold;
+}
+
+.anderfont{
+    font-family: "Bebas Neue", sans-serif;
+    color: darkmagenta;
+}

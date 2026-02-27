@@ -1,0 +1,22 @@
+div{
+    padding-bottom: 5px;
+}
+
+input[type=text]{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+
+.lightblue{
+    background-color: lightblue;
+    color:white;
+}
+
+.lightblue:focus{
+    background-color: white;
+    color: black;
+}
+
+option{
+    background-color: brown;
+}

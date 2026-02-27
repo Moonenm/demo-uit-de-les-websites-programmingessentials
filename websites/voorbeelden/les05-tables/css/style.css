@@ -1,0 +1,30 @@
+table{
+    border : 1px solid black; 
+    border-collapse: collapse;
+}
+
+td, th{
+    border : 1px solid black;
+    padding : 10px;
+}
+
+.achtergrond-groen{
+    background-color: greenyellow;
+}
+
+caption{
+    caption-side: bottom;
+    font-weight: bold;
+}
+
+.color-red{
+    background-color: red;
+}
+
+tr:nth-child(odd){
+    background-color: green;
+}
+
+tr:nth-child(even){
+    background-color: cornflowerblue;
+}
