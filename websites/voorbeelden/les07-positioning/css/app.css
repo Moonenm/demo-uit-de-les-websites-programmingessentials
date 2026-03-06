@@ -1,0 +1,36 @@
+.foto-div{
+    width: 100px;
+    position: fixed;
+    right:10px;
+    /* left:50%;
+    transform: translate(-50%); */
+    top: 20px;
+    z-index: 1;
+    border: 2px solid silver;
+    border-radius: 10px;
+}
+
+.img-100{
+    width: 100%;
+    border-radius: 10px;
+    position: relative;
+    left:-5px;
+    top:-5px;
+    box-shadow:5px 5px 20px blue;
+}
+
+.content{
+    padding: 20px;
+    border: 1px solid silver;
+    margin: 100px 10px;
+    border-radius:10px;
+    width: 75%;
+}
+
+.sticky{
+    background-color: blueviolet;
+    color: white;
+    position: sticky;
+    bottom: 0;
+    top:0;
+}
