@@ -8,6 +8,9 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Update="*.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
     <None Update="getallen-1.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>

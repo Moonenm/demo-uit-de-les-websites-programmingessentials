@@ -1,15 +1,17 @@
 ﻿// Voorbeeld 1
 List<int> getallen = new List<int> { 8, 3, 12, 5, 1 };
 
-int maximum = getallen[0];
+// int maximum = getallen[0];
 
-for (int i = 1; i < getallen.Count; i++)
-{
-    if (getallen[i] > maximum)
-    {
-        maximum = getallen[i];
-    }
-}
+// for (int i = 1; i < getallen.Count; i++)
+// {
+//     if (getallen[i] > maximum)
+//     {
+//         maximum = getallen[i];
+//     }
+// }
+
+getallen.Max();
 
 Console.WriteLine($"Het maximum is: {maximum}");
 
@@ -17,19 +19,20 @@ Console.WriteLine($"Het maximum is: {maximum}");
 List<int> getallen = new List<int> { 8, 3, 12, 5, 1 };
 int hulpGetal;
 
-for (int i = 0; i < getallen.Count - 1; i++)
-{
-    for (int j = 0; j < getallen.Count - i - 1; j++)
-    {
-        if (getallen[j] > getallen[j + 1])
-        {
-            hulpGetal = getallen[j];
-            getallen[j] = getallen[j + 1];
-            getallen[j + 1] = hulpGetal;
-        }
-    }
-}
+// for (int i = 0; i < getallen.Count - 1; i++)
+// {
+//     for (int j = 0; j < getallen.Count - i - 1; j++)
+//     {
+//         if (getallen[j] > getallen[j + 1])
+//         {
+//             hulpGetal = getallen[j];
+//             getallen[j] = getallen[j + 1];
+//             getallen[j + 1] = hulpGetal;
+//         }
+//     }
+// }
 
+Getallen.Sort();
 foreach (int getal in getallen)
 {
     Console.Write($"{getal} ");
